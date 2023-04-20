@@ -99,7 +99,5 @@ value: {"userId": 3,"id": 30, "title": "a quo magni similique perferendis","body
 ```sh
 status: 200 & value: {"id":50}
 ```
-<br/>
-
 ---
 <h3 align="center">SOCIAL OPLESK</h3>
