@@ -27,22 +27,16 @@
 
 |Hacks | Details | 
 |----------|---------|
-| H-1      | status: 200 &  method: GET    &   endpoint: /users/1   &  value: {...} |
-| H-2      | status: 201 &  method: POST   &   endpoint: /posts     &  value: {"id":101} |
-| H-3      | status: 200 &  method: PUT    &   endpoint: /posts/1   &  value: {"id":1} | 
-| H-4      | status: 200 &  method: PATCH  &   endpoint: /posts/1   &  value: {"id":1, props...} |
-| H-5      | status: 200 &  method: DELETE &   endpoint: /posts/1   &  value: {}  |
-| H-6      | {
-            "userId": 1,
-            "id": 2,
-            "title": "qui est esse",
-            "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
-        }; |
-| H-7      | ["Foo","Bar","Baz","Qux","Echo"] | 
-| H-8      | ["b@r","b@z","QUX"] |
-| H-9      | 2 |
-| H-10      | ["bar","qux","octo","foobar"] | 
-| H-11     | ["h@ck","one",2,"three",4,"five","h@ck","f00","Bar","b@z","quX","3ch0","h@ck"] |
+| H-1      | AXIOS - status: 200 &  method: GET    &   endpoint: /users/1   &  value: {...} |
+| H-2      | AXIOS - status: 201 &  method: POST   &   endpoint: /posts     &  value: {"id":101} |
+| H-3      | AXIOS - status: 200 &  method: PUT    &   endpoint: /posts/1   &  value: {"id":1} | 
+| H-4      | AXIOS - status: 200 &  method: PATCH  &   endpoint: /posts/1   &  value: {"id":1, props...} |
+| H-5      | AXIOS - status: 200 &  method: DELETE &   endpoint: /posts/1   &  value: {}  |
+| H-6      | AXIOS - value: {"userId": 1, "id": 2,"title": "qui est esse",  "body": "est rerum ..."} |
+| H-7      | AXIOS - value: {"userId": 3,"id": 30, "title": "a quo magni similique perferendis","body": "alias dolor ..."} | 
+| H-8      | FETCH - value: 100 |
+| H-9      | FETCH - value: {"id":101} |
+| H-10     | FETCH - status: 200 & value: {"id":50} | 
 
 <br/> 
 
